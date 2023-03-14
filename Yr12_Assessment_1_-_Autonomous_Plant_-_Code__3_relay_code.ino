@@ -12,7 +12,6 @@ RTC_DS1307 rtc;
 
 const uint32_t timeDelay = 259200000UL; //3 day gap between waters
 
-
 void setup() {
   pinMode(relayPin, OUTPUT);//relay set as OUTPUT
  digitalWrite(relayPin, HIGH);
